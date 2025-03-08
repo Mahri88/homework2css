@@ -41,7 +41,7 @@ header span {
     width: 552px;
     height: 58px;
     font-family: 'inter';
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 700px;
     color: rgba(48, 48, 48, 1);
     margin-bottom: 20px;
@@ -62,7 +62,7 @@ font-weight: 400px;
 
 
 .about-section {
-   padding: 100px 0px;
+    padding: 100px 0px;
     background-color: rgba(255, 255, 255, 1);
     /* Стили для второй секции */
 }
@@ -107,6 +107,10 @@ select {
 }
 
 .btn {
+    height: 36px;
+    width: 125px;
+    border-radius: 5px;
+    background-color: rgba(41, 101, 241, 1);
     color: rgb(255, 255, 255);
     /* Стили для кнопки */
 }
