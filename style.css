@@ -41,9 +41,10 @@ header span {
     width: 552px;
     height: 58px;
     font-family: 'inter';
-    font-size: 48px;
+    font-size: 24px;
     font-weight: 700px;
     color: rgba(48, 48, 48, 1);
+    margin-bottom: 30px;
     /* Стили для заголовка в первой секции */
 }
 
@@ -61,8 +62,8 @@ font-weight: 400px;
 
 
 .about-section {
-    padding-top: 60px;
-    padding-bottom: 60px;
+    padding-top: 0px;
+    padding-bottom:60px;
     background-color: rgba(255, 255, 255, 1);
     /* Стили для второй секции */
 }
@@ -84,19 +85,19 @@ select {
 }
 
 .frameworks-list {
-    width: 66px;
+    width: 44px;
     height: 19px;
     padding-left: 20px;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    width: 427px;
-    height: 19px;
+    
     /* Стили для нумерованного списка во второй секции */
 }
 
 .label {
+    font-size: 16px;
     /* Стили для подписей чекбоксов */
 }
 
@@ -125,5 +126,8 @@ footer {
 }
 
 .footer-link {
+    font-weight: 400px;
+    font-size: 14px;
+    text-decoration-line: none;
     /* Стили для футера */
 }
