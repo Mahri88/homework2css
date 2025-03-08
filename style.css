@@ -44,7 +44,7 @@ header span {
     font-size: 24px;
     font-weight: 700px;
     color: rgba(48, 48, 48, 1);
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
@@ -62,8 +62,7 @@ font-weight: 400px;
 
 
 .about-section {
-    padding-top: 0px;
-    padding-bottom:60px;
+   padding: 100px 0px;
     background-color: rgba(255, 255, 255, 1);
     /* Стили для второй секции */
 }
@@ -72,6 +71,7 @@ select {
     width: 150px;
     height: 35px;
     border: 1px solid rgba(48, 48, 48, 0.3);
+    background-repeat: no-repeat;
     /* Стили для выпадающего списка */
 }
 
@@ -80,19 +80,19 @@ select {
     font-weight: 700px;
     font-size: 24px;
     color: rgba(48, 48, 48, 1);
-    margin-bottom: 30px;
+    margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
     width: 44px;
     height: 19px;
-    padding-left: 20px;
+    padding-left: 0px 20px;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    
+    padding: 0px 20px;
     /* Стили для нумерованного списка во второй секции */
 }
 
@@ -102,26 +102,34 @@ select {
 }
 
 .text-field {
+    font-size: 16px;
     /* Стили для односточного поля ввода текста */
 }
 
 .btn {
+    color: rgb(255, 255, 255);
     /* Стили для кнопки */
 }
 
 .line {
+    margin: 60px 0;
     /* Стили для линии */
 }
 
 table {
+    font-size: 14px;
     /* Стили для таблицы */
 }
 
 th, td {
+
+    padding: 12px 15px;
     /* Стили для ячеек таблицы */
 }
 
 footer {
+    padding: 26px 0;
+
     /* Стили для футера */
 }
 
